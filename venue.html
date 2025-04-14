@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ital-IA 2023</title>
+
+    <link rel="icon" href="static/frontend/img/aiis-head-icon.png">
+    <!-- Bootstrap -->
+    <link href="static/frontend/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/frontend/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="static/frontend/css/font-awesome.css"/>
+    <link href="static/frontend/css/default.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="static/frontend/css/animate.css"/>
+    <link rel="stylesheet" href="static/frontend/js/fancybox/jquery.fancybox.css" type="text/css"
+          media="screen"/>
+    <link rel="stylesheet" type="text/css" href="static/frontend/css/isotope.css" media="screen"/>
+    <link rel="stylesheet" href="static/frontend/css/style.css%3FthApril20250953.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+    <meta property='og:title' content="Ital-IA: Convegno Nazionale CINI sull'Intelligenza Artificiale" />
+    <meta property='og:description' content="Convegno Nazionale CINI sull'Intelligenza Artificiale" />
+    <meta property='og:image' content="//www.ital-ia.it/static/frontend/img/logo.png"/>
+
+
+
+
+</head>
+
+<body>
+<header>
+    <nav class="nav main-menu">
+        <div class="container container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle ml-auto" data-toggle="collapse" data-target="
+              .navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="static/frontend/img/logo.png%3FthApril20250953"
+                                                                    style="height: 80px;"></a>
+            </div>
+
+            <div class="collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav nav-pills">
+                            
+                            <li><a href="index.html">Home</a></li>
+                            <!-- <li ><a href="program/index.html">Programma</a></li> -->
+                            <li ><a href="workshop.html">Workshop</a></li>
+                            <li  class="active"><a href="venue.html">Venue</a></li>
+                            <!-- <li ><a href="organizers.html">Comitato</a></li> -->
+                            <!-- <li ><a href="attend/index.html">Registrarsi</a></li> -->
+                            <li ><a href="submission.html">CfP</a></li>
+                            <!-- <li ><a href="sponsor.html">Sponsor</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <div class="slider-home text-center" style="display:flex; flex-direction: column; justify-content: center; align-items: center; background-color: #070f1a; background-image: none; padding-top: 5px; padding-bottom: 0px;">
+    <div class="col-md-6 col-sm-10 col-xs-12">
+        <img src="static/frontend/img/banner.png" width="100%">
+    </div>
+    </div>
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <h3> La città di Trieste </h3>
+            <div class="col-md-6">
+
+                Trieste è una vivace e splendida città sul mare nel nord Italia, circondata dalle montagne.
+                È la città più "mitteleuropea" d'Italia, con una ricca storia e un glorioso passato da "Piccola Vienna sul mare".
+                Storicamente, Trieste è stata un punto d'incontro per numerose personalità letterarie
+                (ad esempio, James Joyce visse a Trieste per oltre 10 anni) ed è oggi una delle città
+                con la più alta densità di ricercatori accademici in Europa.
+                Oltre all'Università di Trieste, numerose istituzioni accademiche, tra cui la SISSA
+                (Scuola Internazionale di Studi Avanzati), l'ICTP (Centro Internazionale di Fisica Teorica),
+                l'INAF (Osservatorio di Astrofisica), l'OGS (Istituto di Oceanografia e Geofisica Sperimental)
+                e l'Area Science Park (parco tecnologico e trasferimento tecnologico),
+                formano il cosiddetto "Sistema Trieste". Trieste è stata Città Europea della Scienza nel 2020.
+            </div>
+            <div class="col-md-6">
+                <p><img src="static/frontend/img/trieste/piazza-unita.png" width="100%"></p> <br/>
+                <p><img src="static/frontend/img/trieste/gulf-trieste.jpg" width="100%"></p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <h3> Come raggiungerci </h3>
+            <div class="col-md-9">
+
+            </div>
+        </div> -->
+    </div>
+</section>
+
+<footer>
+    <section id="footer" class="section footer">
+        <div class="container">
+            <div class="col-sm-12 text-center">
+                <p>Copyright &copy; 2025 Ital-IA</p>
+            </div>
+        </div>
+    </section>
+    <a href="index.html#" class="scrollup"><i class="fa fa-chevron-up"> </i></a>
+</footer>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="static/frontend/js/fancybox/jquery.fancybox.pack.js"></script>
+<script src="static/frontend/js/wow.min.js"></script>
+<script src="static/frontend/js/functions.js"></script>
+<script type="text/javascript">
+    new WOW().init();
+</script>
+
+
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            let max = 0;
+            $('.row.sponsor').each(function() {
+                max = Math.max(max, $(this).height());
+            });
+            max = Math.min(max, 200);
+            $('.row.sponsor').each(function() {
+                $(this).css('height', max);
+            });
+            $('.row.sponsor>div>a>img').each(function() {
+                $(this).css('max-height', max);
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
